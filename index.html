@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Média</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+<div id="main">
+    <h1>Calculadora de Média</h1>
+    <div class="content">
+    <input type="text" id="nome" placeholder="Digite o seu nome">
+
+    <input type="number" id="idade" name="idade" placeholder="Digite a sua idade">
+
+    <input type="number" max="10" id="nota_1"  placeholder="Insira a nota 1">
+
+    <input type="number" max="10" id="nota_2"  placeholder="Insira a nota 2">
+
+    <input type="number" max="10" id="nota_3" placeholder="Insira a nota 3">
+
+    <button onclick= "calcularMedia()">Calcular Média</button>
+    </div>
+    <p>A sua média é: <span id="media"></span></p>
+    <p id="status"></p>
+</div>  
+</body>
+</html
